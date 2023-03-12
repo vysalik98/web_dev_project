@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: left;
+}
+
+.header {
+  text-align: center;
+  font-size: 76px;
+  font-family: "Verdana";
+}
+
+.myform {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.myform label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.myform .input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  margin: 5px 0;
+}
+
+.myform .input:focus {
+  outline: none;
+  border-color: #6c63ff;
+  box-shadow: 0px 0px 5px rgba(108, 99, 255, 0.5);
+}
+
+.myform .msg {
+  min-height: 150px;
+  display: inline-block;
+}
+
+.submit-button {
+  background-color: green;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  background-color: #837e7c;
+}
