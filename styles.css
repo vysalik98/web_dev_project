@@ -32,6 +32,12 @@
 
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 195, 0, 0.5),
+    rgba(245, 203, 167, 1),
+    rgba(250, 219, 216, 0.5)
+  );
 }
 
 .about {
