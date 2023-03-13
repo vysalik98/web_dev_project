@@ -1,0 +1,39 @@
+.image {
+  display: block;
+  margin: 3% auto;
+  border-radius: 50%;
+  border: 2px dotted brown;
+}
+
+.paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0% 6%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+.me {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0;
+  border: 1px solid black;
+}
+.prof {
+  font-weight: 500;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.about {
+  text-decoration: underline;
+}
